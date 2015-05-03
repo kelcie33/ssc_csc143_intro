@@ -2,18 +2,21 @@
 
 /****
  * CSC 143, Weekly Practice #4
- * @version 1.0, 05/0/2015
+ * Remove items in an ArrayList and implement Comparable interface
+ * @version 1.0, 05/02/2015
  * @author Kelcie Feeney
  */
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.ArrayList; // ArrayList
+import java.util.Arrays; // Arrays
 
 public class Client {
-  
+
   /**
    * main is the entry point for the program.
-   * @param args not used
+   * 
+   * @param args
+   *          not used
    */
   public static void main(String[] args) {
     DoProblem1();
@@ -21,7 +24,8 @@ public class Client {
   }
 
   /**
-   * 
+   * DoProblem1 does problem 1 from the homework assignment, which
+   * requires testing new method removeInRange in an example problem
    */
   public static void DoProblem1() {
     System.out.println("** DoProblem1 **");
@@ -47,10 +51,17 @@ public class Client {
   }
 
   /**
+   * removeInRange finds comparison strings that fall between reference
+   * screens and removes them from the list. It first converts
+   * references strings to uppercase to avoid confusion between
+   * uppercase and lowercase
    * 
    * @param strList
+   *          list of words
    * @param strBegin
+   *          beginning word key for removal range
    * @param strEnd
+   *          ending word key for removal range
    */
   public static void removeInRange(ArrayList<String> strList,
       String strBegin, String strEnd) {
@@ -72,7 +83,8 @@ public class Client {
   }
 
   /**
-   * 
+   * DoProblem2 does problem 2 from the homework assignment, which
+   * requires testing new class Point implementing interface Comparable
    */
   public static void DoProblem2() {
     System.out.println("** DoProblem2 **");
@@ -82,7 +94,7 @@ public class Client {
     Point p2 = new Point(0, 1);
     Point p3 = new Point(1, 0);
     Point p4 = new Point(1, 1);
-    
+
     // Call compareTo
     System.out.println("Calling compareTo...");
     System.out.println("p3 " + p3.toString() + " compared to p1 "
