@@ -1,0 +1,59 @@
+Cafe Presse
+1117 12th Ave
+restaurant, food, bar, cafe
+47.61208
+-122.3170
+
+All The Best Pet Care
+2713 E Madison St
+pet_store, veterinary_care
+47.62282
+-122.29688
+
+Sephora
+415 Pine St
+department_store, place_of_worship
+47.61128
+-122.33638
+
+Macy’s
+1601 Third Avenue
+department_store
+47.61078
+-122.33876
+
+Bakery Noveau
+137 15th Ave E
+bakery, cafe
+47.61951
+-122.31290
+
+The Mecca Cafe & Bar
+526 Queen Anne Ave N
+restaurant, cafe, bar, food
+7.62410
+-122.35644
+
+Steelhead Diner
+95 Pine St
+restaurant, cafe, bar, food
+47.60955
+-122.34118
+
+QFC Harvard Market
+1401 Broadway
+grocery_or_supermarket, pharmacy
+47.61387
+-122.32164
+
+Trader Joe’s
+1700 Madison St
+grocery_or_supermarket
+47.61115
+-122.32084
+
+Ping’s Dumpling House
+508 S King St
+restaurant, food, meal_takeaway
+47.59856
+-122.32720
